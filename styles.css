@@ -1,8 +1,58 @@
 body {
     margin: 0 10%;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    margin: 1%;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+.contentbox {
+    border: 1px grey solid;
+    width: 100%;
+    
+}
+
+.colourbox-slate-grey {
+    margin: 1%;
+    padding: 10px;
+    width: 29%;
+    background-color: #98A29D;
+    display: inline-block;
+}
+
+.contentbox p {
+    text-align: center;
+    padding: 1%;
+    margin: 0;
+    font-size: 15px;
+}
+
+.colourbox-fresh-turquoise {
+    margin: 1%;
+    padding: 10px;
+    width: 29%;
+    color: black;
+    background-color: #5EEBA4;
+    display: inline-block;
+}
+
+.colourbox-dusk-green {
+    margin: 1%;
+    padding: 10px;
+    width: 29%;
+    color: black;
+    background-color: #C5EBAE;
+    display: inline-block;
 }
