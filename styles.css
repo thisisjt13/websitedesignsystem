@@ -7,20 +7,26 @@ body {
 
 .boxtitle {
     font-family: 'Source Sans Pro', sans-serif;
-    padding: 10px auto;  
+    
 }
 
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal;
+    font-size: 40px;
+    margin: 5px 0px;
     
 }
 
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: lighter;
+    font-size: 30px;
+    margin: 5px 0px;
+    
     
 }
+
 
 header {
     margin-bottom: 10px;
@@ -33,7 +39,7 @@ div {
 
 .contentbox {
     border: 1px grey solid;
-    padding: 10px auto;
+    padding: 10px;
     width: 100%;
     display: block;
     margin: 10px auto;
@@ -44,7 +50,8 @@ div {
 .colourbox {
     width: 100%;
     text-align: center;
-    
+    border: 0;
+    position: relative;
     
 }
 
@@ -58,17 +65,15 @@ div {
 
 
 .colourbox-slate-grey {
-    margin: 5px;
-    padding: 5px;
-    width: 31%;
+    border: 0.11%;
+    width: 33%;
     background-color: #98A29D;
     display: inline-block;
     }
 
 .colourbox-fresh-turquoise {
-    margin: 5px;
-    padding: 5px;
-    width: 31%;
+    border: 0.11%;
+    width: 33%;
     color: black;
     background-color: #99F0C5;
     display: inline-block;
@@ -76,17 +81,23 @@ div {
 }
 
 .colourbox-light-blue {
-    margin: 5px;
-    padding: 5px;
-    width: 31%;
+    border: 0.11%;
+    width: 33%;
     color: black;
     background-color: #D1DED7;
-    display: inline-block;
+    display: inline-block
     
 }
 
 .textbox {
-    width: 100%;
-    text-align: center;
+    width: 33.3%;
+    text-align: left;
     font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+}
+
+.textbox p {
+    font-size: 15px;
+    text-align: left;
+    margin: 0;
 }
