@@ -44,15 +44,15 @@ header {
     padding: 10px;
     width: 29%;
     color: black;
-    background-color: #5EEBA4;
+    background-color: #92E3BA;
     display: inline-block;
 }
 
-.colourbox-dusk-green {
+.colourbox-light-grey {
     margin: 1%;
     padding: 10px;
     width: 29%;
     color: black;
-    background-color: #C5EBAE;
+    background-color: #D1DED7;
     display: inline-block;
 }
